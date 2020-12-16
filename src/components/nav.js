@@ -118,6 +118,30 @@ const StyledLinks = styled.div`
     }
   }
 
+  ul {
+    ${({ theme }) => theme.mixins.flexBetween};
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+      margin: 0 5px;
+      position: relative;
+      font-size: var(--fz-xs);
+
+      a {
+        padding: 10px;
+
+        &:before {
+          margin-right: 5px;
+          color: var(--green);
+          font-size: var(--fz-xxs);
+          text-align: right;
+        }
+      }
+    }
+  }
+
   .resume-button {
     ${({ theme }) => theme.mixins.smallButton};
     margin-left: 15px;
@@ -173,19 +197,19 @@ const Nav = ({ isHome }) => {
         </TransitionGroup>
 
         <StyledLinks>
-          <ol>
+          <ul>
             <TransitionGroup component={null}>
               {isMounted &&
                 navLinks &&
                 navLinks.map(({ url, name }, i) => (
                   <CSSTransition key={i} classNames={fadeDownClass} timeout={timeout}>
                     <li key={i} style={{ transitionDelay: `${isHome ? i * 100 : 0}ms` }}>
-                      <Link to={url}>{name}</Link>
+                      <Link to={url}>.{name}</Link>
                     </li>
                   </CSSTransition>
                 ))}
             </TransitionGroup>
-          </ol>
+          </ul>
 
           {/* <TransitionGroup component={null}>
             {isMounted && (

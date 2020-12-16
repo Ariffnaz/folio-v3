@@ -147,6 +147,38 @@ const StyledSidebar = styled.aside`
     }
   }
 
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+
+    li {
+      position: relative;
+      margin: 0 auto 20px;
+      font-size: clamp(var(--fz-sm), 4vw, var(--fz-lg));
+
+      @media (max-width: 600px) {
+        margin: 0 auto 10px;
+      }
+
+      &:before {
+        display: block;
+        margin-bottom: 5px;
+        color: var(--green);
+        font-size: var(--fz-sm);
+      }
+    }
+
+    a {
+      ${({ theme }) => theme.mixins.link};
+      width: 100%;
+      padding: 3px 20px 20px;
+    }
+  }
+
+
   .resume-link {
     ${({ theme }) => theme.mixins.bigButton};
     padding: 18px 50px;
@@ -251,13 +283,13 @@ const Menu = () => {
         <StyledSidebar menuOpen={menuOpen} aria-hidden={!menuOpen} tabIndex={menuOpen ? 1 : -1}>
           <nav ref={navRef}>
             {navLinks && (
-              <ol>
+              <ul>
                 {navLinks.map(({ url, name }, i) => (
                   <li key={i}>
-                    <Link to={url}>{name}</Link>
+                    <Link to={url}>.{name}</Link>
                   </li>
                 ))}
-              </ol>
+              </ul>
             )}
 
             {/* <a href="/resume.pdf" className="resume-link">
