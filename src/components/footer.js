@@ -77,7 +77,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/Ariffnaz/Ariffnaz.github.io')
+    fetch('https://api.github.com/repos/Ariffnaz/folio-v3')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
@@ -105,7 +105,7 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/Ariffnaz/Ariffnaz.github.io#credits-goes-here">
+        <a href="https://github.com/Ariffnaz/folio-v3#Credits">
           <div></div>
 
           {/* {githubInfo.stars && githubInfo.forks && (
