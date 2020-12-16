@@ -2,7 +2,7 @@
 date: '15-12-2020'
 title: 'e-Portfolio'
 cover: './portfolio.PNG'
-github: 'https://github.com/AriffNaz/Ariffnaz.github.io'
+github: 'https://github.com/AriffNaz/folio-v3'
 external: 'https://nazhan.peacehotel.my/'
 tech:
   - npm
