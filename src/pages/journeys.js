@@ -272,8 +272,8 @@ const JourneyPage = ({ location, data }) => {
         <header ref={revealTitle}>
           {/* <p className="back-button"><a href="/#projects">&lt;</a></p>  */}
           <Link to="/#journey"><p className="back-button">&lt;</p></Link>
-          <h1 className="big-heading">Journey</h1>
-          <p className="subtitle">My Journey throughout semesters</p><br/><br/><br/>
+          <h1 className="big-heading">Blogs</h1>
+          <p className="subtitle">My visionary roadmap blog</p><br/><br/><br/>
         </header>
         <div>
         {projects &&

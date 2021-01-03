@@ -330,7 +330,7 @@ const Journey = () => {
     <StyledProjectsSection>
     <section id="journey">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Journey 
+        Blogs
       </h2>
       
 
