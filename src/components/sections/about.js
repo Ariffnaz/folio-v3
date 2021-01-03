@@ -149,7 +149,7 @@ const About = () => {
               on a wide variety of interesting and meaningful projects on a daily basis.
             </p>
             <p>
-              After awhile, I found it more challenging doing machine learning so I've decided to be a student of <strong>Degree in Intelligent System Engineering. </strong>
+              After awhile,I found it more challenging doing machine learning so I've decided to be a student of <strong>Degree in Intelligent System Engineering. </strong>
             </p>
             <p>Here are a few language I've been studying with recently:</p>
           </div>
