@@ -142,20 +142,15 @@ const About = () => {
         <StyledText>
           <div>
             <p>Hello! I'm Ariff Nazhan, a student based in Sungai Petani, Kedah.</p>
-
-            <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences using some latest technologies suck as vuejs, gatsbyjs, RoR, CodeIgniter etc.
-            </p>
-
-            <p>
+             <p>
               Shortly after graduating from{' '}
               <a href="https://kedah.uitm.edu.my/">UiTM Merbok</a>, I joined the
               internship programme at <a href="https://iconcept.com.my/">I-Concept Solution (M) Sdn Bhd. </a> where I work
               on a wide variety of interesting and meaningful projects on a daily basis.
             </p>
-
+            <p>
+              After awhile, I found it more challenging doing machine learning so I've decided to be a student of <strong>Degree in Intelligent System Engineering. </strong>
+            </p>
             <p>Here are a few language I've been studying with recently:</p>
           </div>
 
