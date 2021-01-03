@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['HTML & (S)CSS', 'Ruby on Rails', 'Some js framework', 'MySQL', 'NoSQL'];
+  const skills = ['Ruby', 'Python', 'Javascript', 'SQL'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -146,7 +146,7 @@ const About = () => {
             <p>
               I enjoy creating things that live on the internet, whether that be websites,
               applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              pixel-perfect, performant experiences using some latest technologies suck as vuejs, gatsbyjs, RoR, CodeIgniter etc.
             </p>
 
             <p>
@@ -156,7 +156,7 @@ const About = () => {
               on a wide variety of interesting and meaningful projects on a daily basis.
             </p>
 
-            <p>Here are a few technologies I've been studying with recently:</p>
+            <p>Here are a few language I've been studying with recently:</p>
           </div>
 
           <ul className="skills-list">

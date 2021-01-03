@@ -7,6 +7,6 @@ range: 'June - September 2018'
 url: 'https://iconcept.com.my/'
 ---
 
-- Developed and maintained code for in-house and client websites primarily using wordpress
+- Developed and maintained code for in-house and client websites primarily
 - Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness
 - Wrote the website content to fulfill client needs.

@@ -5,9 +5,9 @@ I have implemented 1 subcontent which is Journey (blogs), u can copy my source b
 ## Credits
 
 1. <a href="https://www.abdelshokair.tech/">white bg-version</a><br>
-2. <a href="https://www.abdelshokair.tech/">original version</a>
-   <br> -<a href="https://rabbani.dev/">based on original</a>
-   <br> -<a href="https://jonas-kgomo.github.io/">added a blog section</a>
+2. <a href="https://brittanychiang.com/">Navy bg-version</a>
+   <br> -<a href="https://rabbani.dev/">Origin site</a>
+   <br> -<a href="https://jonas-kgomo.github.io/">added a blog section (HTML only)</a>
 
 ## My team
 
