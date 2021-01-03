@@ -7,6 +7,7 @@ import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { Layout } from '@components';
 import { Icon } from '@components/icons';
+import { Link } from 'gatsby';
 
 
 const StyledTableContainer = styled.div`
@@ -147,7 +148,8 @@ const ProjectsPage = ({ location, data }) => {
 
       <main>
         <header ref={revealTitle}>
-          <p className="back-button"><a href="/">&lt;</a></p> 
+          {/* <p className="back-button"><a href="/#projects">&lt;</a></p>  */}
+          <Link to="/#projects"><p className="back-button">&lt;</p></Link>
           <h1 className="big-heading">Projects</h1>
           <p className="subtitle">A big list of things I’ve worked on</p>
         </header>

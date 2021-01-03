@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { Layout } from '@components';
+import { Link } from 'gatsby';
 import { Icon } from '@components/icons';
 
 const StyledProject = styled.div`
@@ -269,7 +270,8 @@ const JourneyPage = ({ location, data }) => {
       
       <main>
         <header ref={revealTitle}>
-          <p className="back-button"><a href="/">&lt;</a></p> 
+          {/* <p className="back-button"><a href="/#projects">&lt;</a></p>  */}
+          <Link to="/#journey"><p className="back-button">&lt;</p></Link>
           <h1 className="big-heading">Journey</h1>
           <p className="subtitle">My Journey throughout semesters</p><br/><br/><br/>
         </header>
