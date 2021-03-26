@@ -6,7 +6,7 @@ module.exports = {
     description:
       'This is for the assignment purpose',
     siteUrl: 'https://nazhan.peacehotel.my/', // No trailing slash allowed!
-    image: 'https://nazhan.peacehotel.my/og.png', // Path to your image you placed in the 'static' folder
+    image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@oscarnazhan',
   },
   plugins: [
