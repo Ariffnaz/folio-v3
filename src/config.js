@@ -8,7 +8,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: '#',
+      url: 'https://www.linkedin.com/in/ariff-nazhan-66a13620a',
     },
     {
       name: 'Codepen',
